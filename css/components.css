@@ -852,27 +852,3 @@
   width: 18px;
   height: 18px;
 }
-
-/* ============================================
-   FOOTER
-   ============================================ */
-.bs-footer {
-  padding: var(--space-6) 0;
-  background: var(--primary);
-  color: var(--text-inverse);
-  text-align: center;
-}
-
-.bs-footer__text {
-  font-size: var(--text-sm);
-  opacity: 0.8;
-}
-
-.bs-footer__link {
-  color: var(--accent);
-  font-weight: 500;
-}
-
-.bs-footer__link:hover {
-  color: var(--text-inverse);
-}
