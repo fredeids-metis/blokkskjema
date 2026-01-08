@@ -1,0 +1,168 @@
+/**
+ * Blokkskjema - Design Tokens
+ * Bergen Private Gymnas - 2026-2027
+ *
+ * Nordic Academic aesthetic with warm BPG brand colors
+ */
+
+:root {
+  /* ============================================
+     BPG BRAND COLORS
+     ============================================ */
+  --bpg-dark: #1a3a3a;
+  --bpg-teal: #2a5a5a;
+  --bpg-green: #5fa550;
+  --bpg-peach: #f5d5c8;
+  --bpg-peach-light: #faf0eb;
+
+  /* ============================================
+     PRIMARY PALETTE
+     ============================================ */
+  --primary: #1F4739;
+  --primary-dark: #163529;
+  --primary-light: #2d6350;
+  --accent: #E8F5A3;
+  --accent-muted: #d4e88f;
+
+  /* ============================================
+     BACKGROUNDS
+     ============================================ */
+  --bg-page: #f8f6f4;
+  --bg-card: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-subtle: #f2eeeb;
+  --bg-block-1: linear-gradient(135deg, #f8f6f4 0%, #f0ebe6 100%);
+  --bg-block-2: linear-gradient(135deg, #f6f8f4 0%, #ebf0e6 100%);
+  --bg-block-3: linear-gradient(135deg, #f4f7f8 0%, #e6ecf0 100%);
+  --bg-block-4: linear-gradient(135deg, #f8f4f6 0%, #f0e6eb 100%);
+
+  /* ============================================
+     TEXT COLORS
+     ============================================ */
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --text-muted: #6a6a6a;
+  --text-light: #8a8a8a;
+  --text-inverse: #ffffff;
+
+  /* ============================================
+     FAGOMRÅDE COLORS (matching studieplanlegger)
+     ============================================ */
+  /* Realfag (grønn) */
+  --fagomrade-realfag: #2E7D32;
+  --fagomrade-realfag-light: #66BB6A;
+  --fagomrade-realfag-bg: #E8F5E9;
+
+  /* Samfunn/økonomi/språk (gul) */
+  --fagomrade-samfunn: #F9A825;
+  --fagomrade-samfunn-light: #FFCA28;
+  --fagomrade-samfunn-bg: #FFFDE7;
+
+  /* Musikk (rød) */
+  --fagomrade-musikk: #C62828;
+  --fagomrade-musikk-light: #EF5350;
+  --fagomrade-musikk-bg: #FFEBEE;
+
+  /* Medier og kommunikasjon (blå) */
+  --fagomrade-medier: #1565C0;
+  --fagomrade-medier-light: #42A5F5;
+  --fagomrade-medier-bg: #E3F2FD;
+
+  /* Matematikk 2P - grå (ikke fordypning) */
+  --fag-matematikk-2p: #616161;
+  --fag-matematikk-2p-light: #757575;
+  --fag-matematikk-2p-bg: #EEEEEE;
+
+  /* ============================================
+     PROGRAM COLORS (for filters)
+     ============================================ */
+  --prog-ssp: var(--cat-realfag);
+  --prog-mk: var(--cat-mk);
+  --prog-musikk: var(--cat-musikk);
+
+  /* ============================================
+     HOURS INDICATORS
+     ============================================ */
+  --hours-140: #1F4739;
+  --hours-113: #3d6a58;
+  --hours-84: #5a8a78;
+
+  /* ============================================
+     SHADOWS
+     ============================================ */
+  --shadow-xs: 0 1px 2px rgba(26, 58, 58, 0.04);
+  --shadow-sm: 0 2px 4px rgba(26, 58, 58, 0.06);
+  --shadow-md: 0 4px 12px rgba(26, 58, 58, 0.08);
+  --shadow-lg: 0 8px 24px rgba(26, 58, 58, 0.12);
+  --shadow-xl: 0 16px 48px rgba(26, 58, 58, 0.16);
+  --shadow-glow: 0 0 0 3px rgba(95, 165, 80, 0.2);
+
+  /* ============================================
+     BORDERS
+     ============================================ */
+  --border-subtle: rgba(26, 58, 58, 0.08);
+  --border-default: rgba(26, 58, 58, 0.12);
+  --border-strong: rgba(26, 58, 58, 0.2);
+  --border-radius-sm: 6px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 24px;
+  --border-radius-pill: 100px;
+
+  /* ============================================
+     TYPOGRAPHY
+     ============================================ */
+  --font-heading: 'jubilat', Georgia, 'Times New Roman', serif;
+  --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+
+  /* ============================================
+     SPACING
+     ============================================ */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  /* ============================================
+     TRANSITIONS
+     ============================================ */
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+
+  /* ============================================
+     Z-INDEX SCALE
+     ============================================ */
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal-backdrop: 900;
+  --z-modal: 1000;
+  --z-tooltip: 1100;
+}

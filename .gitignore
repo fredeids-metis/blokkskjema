@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Claude Code
+.claude/
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Local files
+*.xlsx
+prosjektbeskrivelse.md
